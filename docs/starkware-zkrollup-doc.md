@@ -6,19 +6,19 @@ sidebar_label: Starkware Zkrollup
 
 ## Type
 
-CVM
+Zkrollup
 
 ## Tx Cost
 
-315 gas/tx (on-chain) and < 17 gas/tx (off-chain)
+315 gas/tx (on-chain)
 
 ## Finality
 
-10 mins. (https://medium.com/starkware/starks-over-mainnet-b83e63db04c0)
+Immediate (https://medium.com/starkware/starks-over-mainnet-b83e63db04c0)
 
 ## Consensus
 
-STARK Zero-Knowledge proof (on-chain) or Validium proofs (off-chain)
+Ethereum
 
 ## Max TPS
 
@@ -28,11 +28,11 @@ STARK Zero-Knowledge proof (on-chain) or Validium proofs (off-chain)
 
 - security: secure as L1
 
-- generality: Cairo is currently rewrite for a rewrite because Solidity is not available yet (but the Cairo VM has just been released). (https://medium.com/starkware/cairo-welcome-on-board-1cf3487554f)
+- generality: Cairo is a turing complete programing language and development suit for creating proof systems (https://medium.com/starkware/cairo-welcome-on-board-1cf3487554f)
 
-- composability: support composability
+- composability: supports composability
 
-- permissionless innovation: currently not support
+- permissionless innovation: Cairo and EthStark source code available
 
 ## Links
 
